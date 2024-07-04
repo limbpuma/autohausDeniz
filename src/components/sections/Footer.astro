@@ -1,0 +1,58 @@
+---
+import CheckCircleIcon from 'astro-heroicons/solid/CheckCircle.astro';
+import WrenchScrewdriverIcon from 'astro-heroicons/solid/WrenchScrewdriver.astro';
+---
+<footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4">
+        <!-- Grid para ajustar automáticamente a 1 columna en móvil y 4 en desktop -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- About Us section -->
+            <div class="text-center">
+                <h2 class="text-lg font-semibold">About Us</h2>
+                <p class="text-gray-400 mt-2">It is a long established fact that a reader will be distracted.</p>
+                <!-- Social Media Icons -->
+                <div class="flex justify-center mt-4 gap-2 mx-auto">
+                    <WrenchScrewdriverIcon class="h-6 w-6 text-white" />
+                    <WrenchScrewdriverIcon class="h-6 w-6 text-white" />
+                    <WrenchScrewdriverIcon class="h-6 w-6 text-white" />
+                </div>
+            </div>
+
+            <!-- Company Links -->
+            <div class="text-center">
+                <h2 class="text-lg font-semibold">Company</h2>
+                <ul class="mt-2 space-y-1">
+                    <li><a href="#" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Team</a></li>
+                    <li><a href="#" class="hover:text-gray-300">FAQ</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Our Services Links -->
+            <div class="text-center">
+                <h2 class="text-lg font-semibold">Our Services</h2>
+                <ul class="mt-2 space-y-1">
+                    <li><a href="#" class="hover:text-gray-300">Mechanic Masters</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Speedy Auto Repair</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Mobile Car Repair</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="text-center">
+                <h2 class="text-lg font-semibold">Contact</h2>
+                <p class="mt-2 text-gray-400">66 Broklyant, New York</p>
+                <p class="text-gray-400">Phone Number: 012 345 678 9101</p>
+                <p class="text-gray-400">Email: abcd@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Legal Links and Copyright notice -->
+        <div class="text-center mt-8 text-gray-400 border-2 border-white rounded-lg">
+            
+            <p class="p-1">© Fixturbo 2024 | All Rights Reserved</p>
+        </div>
+    </div>
+</footer>

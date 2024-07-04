@@ -1,0 +1,76 @@
+---
+// Import Astro components for icons
+import WrenchIcon from 'astro-heroicons/solid/Wrench.astro';
+import UserGroupIcon from 'astro-heroicons/solid/UserGroup.astro';
+import CogIcon from 'astro-heroicons/solid/Cog.astro';
+---
+
+<div  class="bg-white text-gray-800">
+    <div class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">KFZ Services The Solutions</h2>
+        
+        <!-- Main layout grid with responsive ordering -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            <!-- Center image with responsive order -->
+            <div class="order-1 md:order-2 mx-auto">
+                <img src="/assets/img/service/wcu-thumb-1-1.png" alt="Car Repair" class="rounded-full"/>
+            </div>
+
+            <!-- Left services column with responsive order -->
+            <div class="order-2 md:order-1 flex flex-col space-y-4">
+                
+                <!-- Service blocks adjusted for mobile -->
+                <div class="flex flex-row md:flex-row-reverse items-center justify-between text-center md:text-right gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="flex flex-row md:flex-row-reverse items-center justify-between text-center md:text-right gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+                <div class="flex flex-row md:flex-row-reverse items-center justify-between text-center md:text-right gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right services column with responsive order -->
+            <div class="order-3 md:order-3 flex flex-col space-y-4">
+                
+                <div class="flex flex-row md:flex-row items-center justify-between text-center md:text-left gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-row md:flex-row items-center justify-between text-center md:text-left gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+                <div class="flex flex-row md:flex-row items-center justify-between text-center md:text-left gap-4">
+                    <WrenchIcon class="w-20 h-auto text-white bg-blue-500 p-2 rounded-lg shadow-md"/>
+                    <div>
+                        <h4 class="font-bold text-lg">Auto Fixers</h4>
+                        <p>A car repair is a service provided to fix any issues or damages with your vehicle. It involves diagnosing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
