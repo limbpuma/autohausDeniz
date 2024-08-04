@@ -1,0 +1,13 @@
+---
+import ServiceBooking from '../sections/ServiceBooking.jsx';
+---
+<section class="bg-blue-100 dark:bg-gray-900 w-full mx-auto">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex flex-col items-center justify-center lg:justify-between space-y-6 lg:space-y-4">
+        <div class="text-center lg:text-left space-y-4 max-w-lg lg:max-w-none">
+            <h2 class="text-4xl font-bold text-gray-900 dark:text-white">Get a Free Service From Us</h2>
+            <p class="text-gray-500 dark:text-gray-400 text-lg">Choose a service, select a date and time, and check availability.</p>
+        </div>
+        <ServiceBooking client:load/>
+
+    </div>
+</section>

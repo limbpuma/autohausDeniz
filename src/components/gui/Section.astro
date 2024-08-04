@@ -1,0 +1,17 @@
+---
+interface Props {
+  class?: string;
+  grayBackground?: boolean;
+  blueBackground?: boolean;
+  noContainer?: boolean;
+  id?: string;
+}
+
+const { class: className, grayBackground, blueBackground, id, noContainer } = Astro.props;
+---
+
+<section id={id} class={`${grayBackground && 'bg-slate-50'} ${blueBackground && 'bg-[rgb(30,66,159)]'} ${className}`}>
+    <div class={`${noContainer ? 'px-0 py-0' : 'container px-4 py-20'}`}>
+        <slot />
+    </div>
+</section>

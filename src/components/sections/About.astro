@@ -1,0 +1,80 @@
+---
+import CheckCircleIcon from "astro-heroicons/solid/CheckCircle.astro";
+import WrenchScrewdriverIcon from "astro-heroicons/solid/WrenchScrewdriver.astro";
+import CheckIconSvg from "@/assets/icons/CheckIcon.astro";
+import Typography from "../gui/Typography.astro";
+import Button from "../gui/Button.astro";
+import Section from "../gui/Section.astro";
+import TitleSection from "../gui/TitleSection.astro";
+
+const AboutInfo = [
+  {
+    title: "Professional Car Repair Services",
+  },
+  {
+    title: "A car repair is a service provided to fix",
+  },
+  {
+    title: "Get Your Car Fixed Right Away",
+  },
+  {
+    title: "Quick and Efficient Car Repairs",
+  },
+];
+---
+
+<Section id="about">
+  <TitleSection title="Know About Us" subtitle="Where Expertise Meets Every Engine" />
+
+  <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
+    <div class="grid grid-cols-2 md:gap-8 gap-3">
+      <div class="md:space-y-6 space-y-2">
+        <img
+          src="/assets/img/about/about_1-1.png"
+          alt="img"
+          class="shadow-lg rounded-lg"
+        />
+        <img
+          src="/assets/img/about/about_1-1.png"
+          alt="img"
+          class="shadow-lg rounded-lg"
+        />
+      </div>
+
+      <div class="md:space-y-6 space-y-2 mt-16">
+        <img
+          src="/assets/img/about/about_1-1.png"
+          alt="img"
+          class="shadow-lg rounded-lg"
+        />
+        <img
+          src="/assets/img/about/about_1-1.png"
+          alt="img"
+          class="shadow-lg rounded-lg"
+        />
+      </div>
+    </div>
+    <div class="w-full">
+      <div class="flex flex-col md:p-12 h-full justify-center">
+        <div class="px-2 w-full lg:w-auto about-features text-xl">
+          <ul class="space-y-2 flex flex-col text-black gap-4 mb-12">
+            {
+              AboutInfo.map((item) => {
+                const { title } = item;
+                return (
+                  <li class="flex items-center gap-2">
+                    <CheckIconSvg class="bg-[#16a34a] rounded-full p-1 size-8" />
+                    <span>{title}</span>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </div>
+        <Button href="about.html" class="mx-auto md:mx-0">
+            Read More
+        </Button>
+      </div>
+    </div>
+  </div>
+</Section>

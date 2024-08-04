@@ -1,0 +1,20 @@
+---
+import Typography from "./Typography.astro";
+
+interface Props {
+  class?: string;
+  title: string;
+  subtitle: string;
+}
+
+const { class: className, title, subtitle } = Astro.props;
+---
+
+<div class={`mb-4 md:mb-8 px-4 text-center ${className}`}>
+      <Typography as="span" variant="subtitle" color="blue"
+        >{title}
+      </Typography>
+      <Typography as="h2" variant="h2" color="black">
+        {subtitle}
+      </Typography>
+</div>

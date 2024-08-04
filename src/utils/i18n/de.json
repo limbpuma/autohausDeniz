@@ -1,0 +1,280 @@
+{
+  "SEO_TITLE": "Express Döner - Authentic Döner Experience in Dortmund Scharnhorst",
+  "SEO_DESCRIPTION": "Enjoy fresh and traditional Döner dishes at Express Döner in Dortmund Scharnhorst. Perfect for a family meal or a quick and delicious bite on the go.",
+  "WHATSAPP_MESSAGE": "Hi, need to reserve a table or order food? Message me...",
+  "STATUS_MESSAGE": "Typically replies within a few minutes, Mo-Su 10am-10pm",
+  "COOKIE_CONSENT": {
+    "MESSAGE": "This website uses cookies to improve user experience.",
+    "MORE_INFO": "For more information, please read our cookie policy.",
+    "ACCEPT": "Accept",
+    "DECLINE": "Decline"
+  },
+  "NAVBAR": {
+    "TOP_NAV": {
+      "TITLE": "Abschleppwagen 24/7",
+      "PHONE_NUMBER": "(555) 412-1234"
+    },
+    "TITLE": "Deniz Auto",
+    "ITEM1": "Home",
+    "ITEM2": "About Us",
+    "ITEM3": "Services",
+    "ITEM4": "Team",
+    "CONTACT": "Contact"
+  },
+    "HERO": {
+      "TITLE": "Express Döner",
+      "SUBTITLE": "Der Geschmack der Tradition in Scharnhorst Dortmund",
+      "DESCRIPTION": "Besuchen Sie uns und erleben Sie die authentischen Aromen unserer Döner-Spezialitäten.",
+      "BUTTON": "Unser Menü ansehen"
+    },
+    "ABOUT": {
+      "SECTION_TITLE": "Über uns",
+      "INTRO": "Mit mehr als 5 Jahren Erfahrung bietet Express Döner die feinsten Dönerspezialitäten in Dortmund, Scharnhorst.",
+      "SUBTITLE": "IN EINER KLEINEN STADT GELEGEN",
+      "DESCRIPTION": "Hergestellt aus frischen und hochwertigen Zutaten.",
+      "EXPERIENCE_TITLE": "5+",
+      "EXPERIENCE_SUBTITLE": "JAHRE ERFAHRUNG",
+      "ADDITIONAL_TEXT1":"Wir bei Express Döner sind stolz darauf, unseren Kunden nur die frischesten und besten Zutaten anzubieten. Unser Ziel ist es, Ihnen ein unvergessliches kulinarisches Erlebnis zu bieten.",
+      "ADDITIONAL_TEXT2":  "Unser Team besteht aus erfahrenen Köchen, die sich leidenschaftlich für die Zubereitung von authentischen Dönergerichten einsetzen. Besuchen Sie uns und erleben Sie den Unterschied.",
+      "FOUNDER": {
+        "NAME": "Mehmet Emin Kocak",
+        "ROLE": "GRÜNDER",
+        "DESCRIPTION":"Mehmet hat Express Döner mit der Vision gegründet, qualitativ hochwertige und frische Zutaten direkt aus Dortmund anzubieten. Seine Leidenschaft für gutes Essen und exzellenten Service hat Express Döner zu dem gemacht, was es heute ist."
+      },
+      "FOUNDER_IMAGE": {
+        "SRC": "img/about/avatar.webp",
+        "ALT": "Mehmet Emin Kocak"
+      },
+      "SIGNATURE_IMAGE": {
+        "SRC": "img/about/signature.png",
+        "ALT": "Signatur"
+      }
+    },
+    "FEATURES": {
+      "SECTION_TITLE": "Unsere Besonderheiten",
+      "DESCRIPTION": "Entdecken Sie, was Express Döner einzigartig macht.",
+      "CARDS": [
+        {
+          "TITLE": "Beste Qualität",
+          "DESCRIPTION": "Wir verwenden nur die frischesten Zutaten für unsere Gerichte.",
+          "ICON": "fa-utensils"
+        },
+        {
+          "TITLE": "Schneller Service",
+          "DESCRIPTION": "Genießen Sie schnellen und freundlichen Service bei jedem Besuch.",
+          "ICON": "fa-shipping-fast"
+        },
+        {
+          "TITLE": "Angenehmes Ambiente",
+          "DESCRIPTION": "Unser Restaurant bietet ein gemütliches und einladendes Ambiente für alle unsere Gäste.",
+          "ICON": "fa-seedling"
+        }
+      ]
+    },
+    "BOOKING": {
+      "SECTION_TITLE": "Terminvereinbarung",
+      "DESCRIPTION": "Reservieren Sie Ihren Tisch einfach und bequem online.",
+      "CHECK_IN_LABEL": "Anreise",
+      "CHECK_IN_PLACEHOLDER": "TT.MM.JJJJ",
+      "GUESTS_LABEL": "Gäste",
+      "FRESH_INGREDIENTS": "Genießen Sie Mahlzeiten aus frischen und erstklassigen Zutaten.",
+      "BUTTON": "Jetzt reservieren"
+    },
+    "REVIEWS": {
+      "SECTION_TITLE": "Kundenmeinungen",
+      "DESCRIPTION": "Hören Sie, was unsere Kunden über uns sagen.",
+      "REVIEWS_LIST": [
+        {
+          "NAME": "ANNA SCHMIDT",
+          "ROLE": "Stammkundin",
+          "COMMENT": "Ich liebe die frischen Zutaten und die aufmerksame Bedienung bei Express Döner. Ein Muss für jeden in Dortmund!",
+          "IMAGE": "avatar01.webp"
+        },
+        {
+          "NAME": "TOMASZ KOWALSKI",
+          "ROLE": "Polnischer Gast",
+          "COMMENT": "Das beste Döner, das ich außerhalb Polens gefunden habe. Großartig für einen schnellen und leckeren Snack.",
+          "IMAGE": "avatar02.webp"
+        },
+        {
+          "NAME": "EMEL AKTAS",
+          "ROLE": "Student",
+          "COMMENT": "Wir fühlen uns hier wie zu Hause. Die Döner sind genau richtig gewürzt und erinnern uns an die Türkei.",
+          "IMAGE": "avatar03.webp"
+        }
+      ]
+    }
+    ,
+    "SHOWCASE": {
+      "SECTION_TITLE": "Unser Menü",
+      "DESCRIPTION": "Erkunden Sie unser vielfältiges und köstliches Angebot.",
+      "PRODUCTS": [
+        { "NAME": "Döner Kebab", "IMAGE": "showcase1.webp", "DESCRIPTION": "Zutaten: Fladenbrot, Dönerfleisch, Salat, Tomaten, Zwiebeln, Soße" },
+        { "NAME": "Döner Drehspieß", "IMAGE": "showcase2.webp", "DESCRIPTION": "Perfekt gegartes Fleisch vom Drehspieß" },
+        { "NAME": "Gemüse-Wrap", "IMAGE": "showcase3.webp", "DESCRIPTION": "Zutaten: Tortilla, frisches Gemüse, Salat, Soße" },
+        { "NAME": "Döner und Pommes", "IMAGE": "showcase4.webp", "DESCRIPTION": "Zutaten: Döner, Pommes, Tomaten, Salat, Soße" },
+        { "NAME": "Wrap mit Pommes", "IMAGE": "showcase5.webp", "DESCRIPTION": "Zutaten: Wrap, Pommes, Soße" },
+        { "NAME": "Pizza Salami", "IMAGE": "showcase6.webp", "DESCRIPTION": "Zutaten: Tomatensauce, Käse, Salami" },
+        { "NAME": "Frischer Salat", "IMAGE": "showcase7.webp", "DESCRIPTION": "Zutaten: Salat, Tomaten, Gurken, Zwiebeln, Feta" },
+        { "NAME": "Hähnchen mit Pommes", "IMAGE": "showcase8.webp", "DESCRIPTION": "Zutaten: Gegrilltes Hähnchen, Pommes, Zitrone, Petersilie" }
+      ]
+    },
+    "TEAM": {
+      "SECTION_TITLE": "Unser Team",
+      "DESCRIPTION": "Lernen Sie unsere talentierten Köche kennen.",
+      "MEMBERS": [
+        {
+          "NAME": "Mehmet Emin",
+          "ROLE": "Chef",
+          "IMAGE": "team01.webp",
+          "DESCRIPTION": "Mehmet ist bekannt für ihre innovativen Rezepte und ihre Leidenschaft für regionale Zutaten."
+        }
+      ]
+    },
+    "VIDEO": {
+      "TITLE": "Entdecken Sie Express Döner",
+      "DESCRIPTION": "Erleben Sie den authentischen Geschmack von Express Döner.",
+      "BUTTON": "Hier findest du uns!",
+      "SUBTITLE": "Qualität und Authentizität",
+      "INTRO": "Sehen Sie, wie unsere Köche den besten Döner in Dortmund zubereiten."
+    }
+    ,
+    "FOOTER": {
+      "ABOUT": {
+        "DESCRIPTION": "Express Döner steht für Qualität und hervorragenden Service in Dortmund Scharnhorst.",
+        "IMPRINT": {
+            "TEXT": "Impressum",
+            "URL": "https://www.expressdoener.de/impressum"
+        },
+        "PRIVACY": {
+            "TEXT": "Datenschutz",
+            "URL": "https://www.expressdoener.de/datenschutz"
+        },
+        "TERMS": {
+            "TEXT": "AGBs",
+            "URL": "https://www.expressdoener.de/agb"
+        }
+    },
+      "OPENING_HOURS": {
+          "LABEL": "Öffnungszeiten",
+          "TIMES": {
+            "JEDEN TAG": "10:00 - 22:00"
+          }
+      },
+      "CONTACT": {
+        "LABEL": "Kontakt",
+        "GET_IN_TOUCH": "Kontaktieren Sie uns",
+        "ADDRESS": "Gleiwitzstraße 269A, 44328 Dortmund",
+        "ADDRESS_LABEL": "Adresse",
+        "PHONE": "0231 92 88 11 55",
+        "EMAIL": "kocakmehmetemin085@gmail.com"
+      },
+      "SOCIAL_MEDIA": {
+          "FACEBOOK": "https://facebook.com/expressdoener",
+          "TWITTER": "https://twitter.com/expressdoener",
+          "INSTAGRAM": "https://instagram.com/expressdoener"
+      },
+      "COPYRIGHT": "© 2024 Alle Rechte vorbehalten.",
+      "DEVELOPER": {
+          "TEXT": "Entwickelt von Limber Martinez",
+          "LINK": "https://www.limbermartinez.com/"
+      },
+      "GET_DIRECTIONS": "Wegbeschreibung"
+  },
+  "MENU": {
+    "TITLE": "Unser Menü",
+    "DESCRIPTION": "Entdecken Sie unsere köstlichen Menüoptionen.",
+    "TABS": {
+      "MENU_OFFERS": "Angebote",
+      "TURKISH_SPECIALTIES": "Türkische",
+      "CHICKEN": "Hähnchen",
+      "BAGUETTES": "Baguettes",
+      "FRIES": "Pommes",
+      "PIZZA": "Pizza",
+      "SALADS": "Salate",
+      "EXTRAS_DRINKS": "Extras"
+    },
+    "PRODUCTS": {
+      "MENU_OFFERS": [
+        { "NAME": "Menü 1", "PRICE": "8,90 €", "DESCRIPTION": "Dönertasche + Pommes + Getränk 0,33l" },
+        { "NAME": "Menü 2", "PRICE": "9,50 €", "DESCRIPTION": "1/2 Hähnchen + Pommes oder Reis + Salat + Getränk 0,33l" },
+        { "NAME": "Menü 3", "PRICE": "8,50 €", "DESCRIPTION": "1x Hamburger + Pommes + Getränk 0,33l" },
+        { "NAME": "Menü 4", "PRICE": "10,50 €", "DESCRIPTION": "2x Chickenburger + Pommes + Getränk 0,33l" },
+        { "NAME": "Montag", "PRICE": "7,00 €", "DESCRIPTION": "1/2 Hähnchen mit Pommes oder Reis" },
+        { "NAME": "Dienstag", "PRICE": "7,00 €", "DESCRIPTION": "Jede große Pizza" },
+        { "NAME": "Mittwoch", "PRICE": "8,00 €", "DESCRIPTION": "Schnitzel mit Pommes oder Reis, Salat und Sauce" },
+        { "NAME": "Donnerstag", "PRICE": "7,00 €", "DESCRIPTION": "Lahmacun mit Dönerfleisch, Salat und Sauce" },
+        { "NAME": "Freitag", "PRICE": "11,00 €", "DESCRIPTION": "Döner Teller mit Pommes oder Reis, Salat und Sauce + Getränk 0,33l" }
+      ],
+      "TURKISH_SPECIALTIES": [
+        { "NAME": "Dürüm Döner", "PRICE": "7,00 €", "DESCRIPTION": "Dönerfleisch mit Salat und Sauce im Wrap" },
+        { "NAME": "Döner Tasche", "PRICE": "6,00 €", "DESCRIPTION": "Dönerfleisch mit Salat und Sauce im Brot" },
+        { "NAME": "Kinder Döner Tasche", "PRICE": "4,00 €", "DESCRIPTION": "Dönerfleisch mit Salat und Sauce im Brot" },
+        { "NAME": "Turbo Döner Tasche", "PRICE": "7,00 €", "DESCRIPTION": "Dönerfleisch, Knoblauchwurst mit Salat und Sauce im Brot" },
+        { "NAME": "Jumbo Döner Tasche", "PRICE": "8,00 €", "DESCRIPTION": "Dönerfleisch mit Salat und Sauce im Brot" },
+        { "NAME": "Pomm Döner", "PRICE": "6,00 €", "DESCRIPTION": "Dönerfleisch, Pommes und Sauce in der Box" },
+        { "NAME": "Pomm Döner klein", "PRICE": "4,50 €", "DESCRIPTION": "Dönerfleisch, Pommes und Sauce in der Box" },
+        { "NAME": "Salat Tasche", "PRICE": "4,50 €", "DESCRIPTION": "Salat und Sauce im Brot" },
+        { "NAME": "Pommes Tasche", "PRICE": "4,50 €", "DESCRIPTION": "Pommes, Salat und Sauce im Brot" },
+        { "NAME": "Sucuk Tasche", "PRICE": "6,00 €", "DESCRIPTION": "Knoblauchwurst, Salat und Sauce im Brot" }
+      ],
+      "CHICKEN": [
+        { "NAME": "1/2 Hähnchen", "PRICE": "5,50 €", "DESCRIPTION": "" },
+        { "NAME": "Hähnchen", "PRICE": "11,00 €", "DESCRIPTION": "" },
+        { "NAME": "Schnitzel Wiener Art", "PRICE": "8,00 €", "DESCRIPTION": "mit Pommes und Salat" },
+        { "NAME": "Jägerschnitzel", "PRICE": "9,00 €", "DESCRIPTION": "mit Pommes und Salat" },
+        { "NAME": "Paprikaschnitzel", "PRICE": "9,00 €", "DESCRIPTION": "mit Pommes und Salat" },
+        { "NAME": "Hawaii-Schnitzel", "PRICE": "9,50 €", "DESCRIPTION": "mit Pommes und Salat" },
+        { "NAME": "7 Chicken Nuggets", "PRICE": "6,00 €", "DESCRIPTION": "mit Pommes" },
+        { "NAME": "11 Chicken Nuggets", "PRICE": "8,00 €", "DESCRIPTION": "mit Pommes" }
+      ],
+      "BAGUETTES": [
+        { "NAME": "Salami", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" },
+        { "NAME": "Schinken", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" },
+        { "NAME": "Tonno", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" },
+        { "NAME": "Sucuk", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" },
+        { "NAME": "Döner", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" },
+        { "NAME": "Hawaii", "PRICE": "6,00 €", "DESCRIPTION": "Alle Baguettes belegt mit Gurken, Tomaten & Blattsalat wahlweise Remoulade" }
+      ],
+      "FRIES": [
+        { "NAME": "Pommes klein", "PRICE": "2,50 €", "DESCRIPTION": "" },
+        { "NAME": "Pommes groß", "PRICE": "3,50 €", "DESCRIPTION": "" },
+        { "NAME": "Pommes Spezial", "PRICE": "6,00 €", "DESCRIPTION": "mit Currysauce und Zwiebeln" },
+        { "NAME": "Bratwurst", "PRICE": "3,00 €", "DESCRIPTION": "" },
+        { "NAME": "Currywurst", "PRICE": "3,50 €", "DESCRIPTION": "" },
+        { "NAME": "Currywurst mit Pommes", "PRICE": "6,00 €", "DESCRIPTION": "mit Salatmayonnaise" }
+      ],
+      "PIZZA": [
+        { "NAME": "Margherita", "PRICE": "Kl.: 5.00 € / Gr.: 6.50 €", "DESCRIPTION": "Alle Pizzas mit Käse und Tomatensoße" },
+        { "NAME": "Spinat", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Alle Pizzas mit Käse und Tomatensoße" },
+        { "NAME": "Prosciutto", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Puten-Schinken" },
+        { "NAME": "Salami", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Rindersalami" },
+        { "NAME": "Funghi", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Champignons" },
+        { "NAME": "Tonno", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Thunfisch" },
+        { "NAME": "Hawaii", "PRICE": "Kl.: 6.00 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Ananas und Schinken" },
+        { "NAME": "Sucuk", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Knoblauchwurst" },
+        { "NAME": "Döner", "PRICE": "Kl.: 6.00 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Dönerfleisch" },
+        { "NAME": "Vegetarisch", "PRICE": "Kl.: 7.50 € / Gr.: 9.50 €", "DESCRIPTION": "" }
+      ],
+      "SALADS": [
+        { "NAME": "Hirten Salat", "PRICE": "Kl.: 5.00 € / Gr.: 7.00 €", "DESCRIPTION": "Mit Eisbergsalat, Tomaten, Gurken, Käse & Zwiebeln" },
+        { "NAME": "Insalata San Antonio", "PRICE": "Kl.: 6.00 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Eisbergsalat, Thunfisch, Tomaten, Gurken & Zwiebeln" },
+        { "NAME": "Bauernsalat", "PRICE": "Kl.: 5.50 € / Gr.: 8.00 €", "DESCRIPTION": "Mit Eisbergsalat, Tomaten, Gurken & Ei" },
+        { "NAME": "Döner Salat", "PRICE": "Kl.: 6.50 € / Gr.: 9.00 €", "DESCRIPTION": "Mit Eisbergsalat, Gurken, Tomaten, Zwiebeln, Mais und Dönerfleisch" },
+        { "NAME": "Express Salat", "PRICE": "Kl.: 6.50 € / Gr.: 9.00 €", "DESCRIPTION": "Mit Eisbergsalat, Gurken, Tomaten, Thunfisch, Schinkenröllchen, Mais & Ei" }
+      ],
+      "EXTRAS_DRINKS": [
+        { "NAME": "Hollandaise", "PRICE": "1,00 €", "DESCRIPTION": "" },
+        { "NAME": "Paprikasauce", "PRICE": "1,00 €", "DESCRIPTION": "" },
+        { "NAME": "Jägersauce", "PRICE": "1,00 €", "DESCRIPTION": "" },
+        { "NAME": "Currysauce", "PRICE": "0,50 €", "DESCRIPTION": "" },
+        { "NAME": "Mayonnaise / Ketchup", "PRICE": "0,50 €", "DESCRIPTION": "" },
+        { "NAME": "Cola / Fanta / Sprite / Mezzo Mix", "PRICE": "2,00 €", "DESCRIPTION": "0,33l zzgl. Pfand" },
+        { "NAME": "Mineralwasser", "PRICE": "1,50 €", "DESCRIPTION": "0,25l zzgl. Pfand" },
+        { "NAME": "Ayran", "PRICE": "1,00 €", "DESCRIPTION": "0,50l zzgl. Pfand" }
+      ]
+    },
+    "DOWNLOAD_BUTTON_TEXT": "Menü als PDF herunterladen"
+  }
+  
+}

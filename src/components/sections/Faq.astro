@@ -1,0 +1,84 @@
+---
+import Section from "../gui/Section.astro";
+import TitleSection from "../gui/TitleSection.astro";
+
+const faqInfo = [
+  {
+    question: "What is Flowbite?",
+    answer:
+      "Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.",
+  },
+  {
+    question: "Is there a Figma file available?",
+    answer:
+      "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.",
+  },
+  {
+    question: "What are the differences between Flowbite and Tailwind UI?",
+    answer:
+      "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.",
+  },
+];
+---
+
+<Section id="faq">
+  <TitleSection
+    title="Frequently Asked Questions"
+    subtitle="Professional Car Repair The Best Services"
+  />
+
+  <div class="w-full p-4 md:flex-col">
+    <ul
+      id="accordion-flush"
+      data-accordion="collapse"
+      data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+      data-inactive-classes="text-gray-500 dark:text-gray-400"
+    >
+      {
+        faqInfo.map((item, index) => {
+          const { question, answer } = item;
+          return (
+            <li>
+              <h2 id={`accordion-flush-heading-${index + 1}`}>
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                  data-accordion-target={`#accordion-flush-body-${index + 1}`}
+                  aria-expanded="true"
+                  aria-controls={`accordion-flush-body-${index + 1}`}
+                >
+                  <span class="text-xl">{question}</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5 5 1 1 5"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id={`accordion-flush-body-${index + 1}`}
+                class="hidden"
+                aria-labelledby={`accordion-flush-heading-${index + 1}`}
+              >
+                <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                  <p class="mb-2 text-gray-500 dark:text-gray-400 text-md">{answer}</p>
+                </div>
+              </div>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</Section>

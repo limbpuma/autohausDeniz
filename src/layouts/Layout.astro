@@ -1,0 +1,22 @@
+---
+import Head from "@/components/gui/Head.astro";
+import { getLangFromUrl } from "@/utils/i18n/utils";
+
+interface Props {
+  description: string;
+  title: string;
+}
+
+const { description, title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+console.log(lang);
+---
+
+<!doctype html>
+<html lang="en">
+  <Head title={title} description={description} />
+  <body>
+    <slot />
+  </body>
+</html>
+
