@@ -1,0 +1,41 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types"
+
+type Props<Tag extends HTMLTag> = Polymorphic<{
+	as: Tag
+	variant: keyof typeof variantClasses
+	color: keyof typeof colorClasses
+}>
+
+const { as: Tag, class: className, variant, color, ...props } = Astro.props
+
+const variantClasses: { [key: string]: string } = {
+    "h1": "text-5xl md:text-7xl font-bold",
+    "h2": "text-3xl md:text-5xl font-bold mt-2",
+    "subtitle": "md:text-lg text-md font-semibold uppercase",
+}
+
+const colorClasses = {
+	white: "text-white",
+	black: "text-gray-900",
+	primary: "text-accent",
+	blue: "text-blue-500",
+	neutral: "text-neutral-300",
+}
+
+const classes = [
+	variantClasses[variant as keyof typeof variantClasses],
+	colorClasses[color as keyof typeof colorClasses],
+	className,
+]
+---
+
+<Tag class:list={classes} {...props} tabindex="0">
+	<slot />
+</Tag>
+
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        font-family: raleway;
+    }
+</style>

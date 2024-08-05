@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="section-reviews" class="container px-4 py-12">
     <div class="text-center mb-6">
         <span class="text-sm font-semibold text-blue-500 uppercase mb-4">Latest service</span>
@@ -81,3 +82,83 @@
 
     </div>
 </div>
+=======
+---
+import Section from "../gui/Section.astro";
+import TitleSection from "../gui/TitleSection.astro";
+
+const reviewsInfo = [
+  {
+    name: "Bonnie Green",
+    review: "Very easy this was to integrate",
+    desc: "If you care for your time, I hands down would go with this.",
+    ocupation: "Developer at Open AI",
+    image:
+      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png",
+  },
+  {
+    name: "Roberta Casas",
+    review: "Solid foundation for any project",
+    desc: "Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!",
+    ocupation: "Lead designer at Dropbox",
+    image:
+      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png",
+  },
+  {
+    name: "Jese Leos",
+    review: "Mindblowing workflow",
+    desc: "Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application.",
+    ocupation: "Software Engineer at Facebook",
+    image:
+      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+  },
+  {
+    name: "Joseph McFall",
+    review: "Efficient Collaborating",
+    desc: "You have many examples that can be used to create a fast prototype for your team.",
+    ocupation: "CTO at Google",
+    image:
+      "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+  },
+];
+---
+
+<Section id="reviews">
+  <TitleSection
+    title="Reviews"
+    subtitle="Professional Car Repair The Best Services"
+  />
+    <div
+      class="grid gap-6 md:gap-12 md:grid-cols-2"
+    >
+      {
+        reviewsInfo.map((item) => {
+          const { name, review, desc, image, ocupation } = item;
+          return (
+            <figure class="flex flex-col items-center justify-center p-8 text-center  bg-secondaryGradient rounded-t-lg md:rounded-t-none md:rounded-ss-lg dark:bg-gray-800 ">
+              <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-whDeveloper at Open AIite">
+                  {review}
+                </h3>
+                <p class="my-4">{desc}</p>
+              </blockquote>
+              <figcaption class="flex items-center justify-center">
+                <img
+                  class="rounded-full w-9 h-9"
+                  src={image}
+                  alt="profile picture"
+                />
+                <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                  <div>{name}</div>
+                  <div class="text-sm text-gray-500 dark:text-gray-400">
+                    {ocupation}
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          );
+        })
+      }
+  </div>
+</Section>
+>>>>>>> version2

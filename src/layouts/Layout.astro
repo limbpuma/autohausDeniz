@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 import Navbar from '../components/sections/Navbar.astro';
 import Footer from '../components/sections/Footer.astro';
 import { getLangFromUrl } from "../utils/i18n/utils";
@@ -11,10 +12,24 @@ interface Props {
 
 const { description, title } = Astro.props
 const lang = getLangFromUrl(Astro.url);
+=======
+import Head from "@/components/gui/Head.astro";
+import { getLangFromUrl } from "@/utils/i18n/utils";
+
+interface Props {
+  description: string;
+  title: string;
+}
+
+const { description, title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+console.log(lang);
+>>>>>>> version2
 ---
 
 <!doctype html>
 <html lang="en">
+<<<<<<< HEAD
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
@@ -35,4 +50,11 @@ const lang = getLangFromUrl(Astro.url);
 
 
 </style>
+=======
+  <Head title={title} description={description} />
+  <body>
+    <slot />
+  </body>
+</html>
+>>>>>>> version2
 
