@@ -3,6 +3,7 @@ import { getI18N } from "../../utils/i18n";
 import Section from "../gui/Section.astro";
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
+
 ---
 
 <Section id="footer" class="bg-primaryGradient border-t border-gray-400" noContainer>
@@ -10,7 +11,7 @@ const i18n = getI18N({ currentLocale });
     <!-- Logo and About Section -->
     <div class="w-full md:w-1/3 px-4 mb-10">
       <div class="mb-6">
-        <i class="fas fa-utensils text-yellow-500 text-3xl mb-2"></i>
+        <i class="fas fa-utensils text-blue-500 text-3xl mb-2"></i>
 
         <div class="mt-6">
           <h5 class="text-xl font-bold uppercase">Express Döner</h5>
@@ -23,7 +24,7 @@ const i18n = getI18N({ currentLocale });
           Object.keys(i18n.FOOTER.SOCIAL_MEDIA).map((key) => (
             <a
               href={i18n.FOOTER.SOCIAL_MEDIA[key]}
-              class="text-gray-400 hover:text-orange-500"
+              class="text-gray-400 hover:text-blue-500"
             >
               <i class={`fab fa-${key.toLowerCase()}`} />
             </a>
@@ -35,19 +36,19 @@ const i18n = getI18N({ currentLocale });
           href={currentLocale === "en"
             ? "/legal-advice.en"
             : "/legal-advice.de"}
-          class="text-gray-400 hover:text-orange-500 mr-4"
+          class="text-gray-400 hover:text-blue-500 mr-4"
           >{i18n.FOOTER.ABOUT.IMPRINT.TEXT}</a
         >
         <a
           href={currentLocale === "en"
             ? "/privacy-policy.en"
             : "/privacy-policy.de"}
-          class="text-gray-400 hover:text-orange-500 mr-4"
+          class="text-gray-400 hover:text-blue-500 mr-4"
           >{i18n.FOOTER.ABOUT.PRIVACY.TEXT}</a
         >
         <a
           href={currentLocale === "en" ? "/abg-policy.en" : "/abg-policy.de"}
-          class="text-gray-400 hover:text-orange-500"
+          class="text-gray-400 hover:text-blue-500"
           >{i18n.FOOTER.ABOUT.TERMS.TEXT}</a
         >
       </div>
@@ -56,7 +57,7 @@ const i18n = getI18N({ currentLocale });
     <!-- Opening Hours -->
     <div class="w-full md:w-1/3 px-4 mb-10">
       <div class="mb-6">
-        <i class="fas fa-clock text-yellow-500 text-3xl mb-2"></i>
+        <i class="fas fa-clock text-blue-500 text-3xl mb-2"></i>
         <div class="mt-6">
           <h5 class="text-xl font-bold uppercase">
             {i18n.FOOTER.OPENING_HOURS.LABEL}
@@ -78,9 +79,9 @@ const i18n = getI18N({ currentLocale });
     <!-- Contact Information -->
     <div class="w-full md:w-1/3 px-4 mb-10">
       <div class="mb-6">
-        <i class="fas fa-map-marker-alt text-yellow-500 text-3xl mb-2"></i>
+        <i class="fas fa-map-marker-alt text-blue-500 text-3xl mb-2"></i>
         <div class="mt-6">
-          <h5 class="text-xl font-bold uppercase text-yellow-500">
+          <h5 class="text-xl font-bold uppercase text-blue-500">
             {i18n.FOOTER.CONTACT.LABEL}
           </h5>
           <a href="tel:+49 023192881155" class="text-xl text-white font-bold"
@@ -93,7 +94,7 @@ const i18n = getI18N({ currentLocale });
         <a
           href="https://maps.app.goo.gl/o96ooB7G4vPyUXSF9"
           target="_blank"
-          class="mt-4 inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
+          class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
         >
           {i18n.FOOTER.GET_DIRECTIONS}
         </a>

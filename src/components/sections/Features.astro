@@ -22,6 +22,11 @@ const testimonials = [
     image: "/assets/img/testimonial/testimonial-1.png",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
   },
+  {
+    name: "Jordyn Franci",
+    image: "/assets/img/testimonial/testimonial-1.png",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+  },
 ];
 ---
 
@@ -29,7 +34,7 @@ const testimonials = [
     <TitleSection title="Latest service" subtitle="Professional Car Repair The Best Services" />
 
     <div class="mt-8 2xl:mb-8">
-      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
         {
           testimonials.map((item) => {
             const { name, image, desc } = item;

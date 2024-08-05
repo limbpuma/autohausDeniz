@@ -6,21 +6,11 @@ import Typography from "../gui/Typography.astro";
 import Button from "../gui/Button.astro";
 import Section from "../gui/Section.astro";
 import TitleSection from "../gui/TitleSection.astro";
+import { getI18N } from "../../utils/i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const AboutInfo = i18n.ABOUT;
 
-const AboutInfo = [
-  {
-    title: "Professional Car Repair Services",
-  },
-  {
-    title: "A car repair is a service provided to fix",
-  },
-  {
-    title: "Get Your Car Fixed Right Away",
-  },
-  {
-    title: "Quick and Efficient Car Repairs",
-  },
-];
 ---
 
 <Section id="about">
@@ -60,11 +50,11 @@ const AboutInfo = [
           <ul class="space-y-2 flex flex-col text-black gap-4 mb-12">
             {
               AboutInfo.map((item) => {
-                const { title } = item;
+                
                 return (
                   <li class="flex items-center gap-2">
                     <CheckIconSvg class="bg-[#16a34a] rounded-full p-1 size-8" />
-                    <span>{title}</span>
+                    <span>{item.TEXT}</span>
                   </li>
                 );
               })
@@ -72,7 +62,7 @@ const AboutInfo = [
           </ul>
         </div>
         <Button href="about.html" class="mx-auto md:mx-0">
-            Read More
+            {i18n.ABOUT_BUTTON}
         </Button>
       </div>
     </div>

@@ -2,49 +2,10 @@
 import Button from "../gui/Button.astro";
 import Typography from "../gui/Typography.astro";
 import WrenchScrewdriverIcon from "astro-heroicons/solid/WrenchScrewdriver.astro";
-
-const carouselItems = [
-  {
-    title: "Automotive Repair",
-    subtitle: "Maintenance",
-    description:
-      "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
-    button: "Appointment",
-    image: "/assets/img/bg/imagen1.svg",
-  },
-  {
-    title: "Fast & Easy",
-    subtitle: "Service",
-    description:
-      "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
-    button: "Appointment",
-    image: "/assets/img/bg/imagen1.svg",
-  },
-  {
-    title: "Convenient & Affordable",
-    subtitle: "Service",
-    description:
-      "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
-    button: "Appointment",
-    image: "/assets/img/bg/imagen1.svg",
-  },
-  {
-    title: "Convenient & Affordable",
-    subtitle: "Service",
-    description:
-      "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
-    button: "Appointment",
-    image: "/assets/img/bg/imagen1.svg",
-  },
-  {
-    title: "Convenient & Affordable",
-    subtitle: "Service",
-    description:
-      "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
-    button: "Appointment",
-    image: "/assets/img/bg/imagen1.svg",
-  },
-];
+import { getI18N } from "../../utils/i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+const carouselItems = i18n.HERO;
 ---
 
 <div
@@ -56,14 +17,14 @@ const carouselItems = [
   <div class="relative h-full overflow-hidden">
     {
       carouselItems.map((item) => {
-        const { title, subtitle, description, button, image } = item;
+        
         return (
           <div
             class="flex items-center justify-center w-full h-full"
             data-carousel-item
           >
             <img
-              src={image}
+              src={item.IMAGE}
               class="absolute w-full h-full object-cover"
               alt="Background Image"
             />
@@ -75,7 +36,7 @@ const carouselItems = [
                   class="text-lg md:text-xl  text-white"
                   data-swiper-parallax="300"
                 >
-                  {title}
+                  {item.TITLE}
                 </p>
                 <Typography
                   as="h1"
@@ -83,15 +44,15 @@ const carouselItems = [
                   color="white"
                   data-swiper-parallax="100"
                 >
-                  {subtitle}
+                  {item.SUBTITLE}
                 </Typography>
                 <p
                   class="text-md md:text-xl text-white text-center md:text-left"
                   data-swiper-parallax="400"
                 >
-                  {description}
+                  {item.DESCRIPTION}
                 </p>
-                <Button href="appointment.html">{button}</Button>
+                <Button href="appointment.html">{item.BUTTON}</Button>
               </div>
             </div>
           </div>

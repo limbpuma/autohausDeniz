@@ -21,35 +21,52 @@
       "ITEM4": "Team",
       "CONTACT": "Contact"
     },
-    "HERO": {
-      "TITLE": "Express Döner",
-      "SUBTITLE": "The Taste of Tradition in Scharnhorst Dortmund",
-      "DESCRIPTION": "Visit us and experience the authentic flavors of our Döner specialties.",
-      "BUTTON": "View Our Menu"
-    },
-    "ABOUT": {
-      "SECTION_TITLE": "About Us",
-      "INTRO": "With over 5 years of experience, Express Döner offers the finest döner specialties in Dortmund, Scharnhorst.",
-      "SUBTITLE": "Located in a Small Town",
-      "DESCRIPTION": "Made from fresh and high-quality ingredients.",
-      "EXPERIENCE_TITLE": "5+",
-      "EXPERIENCE_SUBTITLE": "Years of Experience",
-      "ADDITIONAL_TEXT1":"At Express Döner, we pride ourselves on providing our customers with only the freshest and finest ingredients. Our goal is to offer you an unforgettable culinary experience.",
-      "ADDITIONAL_TEXT2":"Our team consists of experienced chefs who are passionate about preparing authentic döner dishes. Visit us and experience the difference.",
-      "FOUNDER": {
-        "NAME": "Mehmet Emin Kocak",
-        "ROLE": "Founder",
-        "DESCRIPTION": "Mehmet founded Express Döner with a vision to offer high-quality, fresh ingredients directly from Dortmund. His passion for good food and excellent service has made Express Döner what it is today."
+    "HERO": [
+      {
+        "TITLE": "Automotive Repair",
+        "SUBTITLE": "Maintenance",
+        "DESCRIPTION": "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
+        "BUTTON": "Appointment",
+        "IMAGE": "/assets/img/bg/imagen1.svg"
       },
-      "FOUNDER_IMAGE": {
-        "SRC": "img/about/avatar.webp",
-        "ALT": "Mehmet Emin Kocak"
+      {
+        "TITLE": "Fast & Easy",
+        "SUBTITLE": "Service",
+        "DESCRIPTION": "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
+        "BUTTON": "Appointment",
+        "IMAGE": "/assets/img/bg/imagen1.svg"
       },
-      "SIGNATURE_IMAGE": {
-        "SRC": "img/about/signature.png",
-        "ALT": "Signature"
+      {
+        "TITLE": "Convenient & Affordable",
+        "SUBTITLE": "Service",
+        "DESCRIPTION": "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
+        "BUTTON": "Appointment",
+        "IMAGE": "/assets/img/bg/imagen1.svg"
+      },
+      {
+        "TITLE": "Convenient & Affordable",
+        "SUBTITLE": "Service",
+        "DESCRIPTION": "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
+        "BUTTON": "Appointment",
+        "IMAGE": "/assets/img/bg/imagen1.svg"
+      },
+      {
+        "TITLE": "Convenient & Affordable",
+        "SUBTITLE": "Service",
+        "DESCRIPTION": "Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best.",
+        "BUTTON": "Appointment",
+        "IMAGE": "/assets/img/bg/imagen1.svg"
       }
-    },
+    ],
+    "ABOUT": [
+      {"TEXT":"Professional Car Repair Services"},
+      {"TEXT":"A car repair is a service provided to fix"},
+      {"TEXT":"Get Your Car Fixed Right Away"},
+      {"TEXT":"Quick and Efficient Car Repairs"}
+      
+    ],
+      "ABOUT_BUTTON":"Read More"
+    ,
     "FEATURES": {
       "SECTION_TITLE": "Our Specialties",
       "DESCRIPTION": "Discover what makes Express Döner unique.",
@@ -71,15 +88,7 @@
         }
       ]
     },
-    "BOOKING": {
-      "SECTION_TITLE": "Booking",
-      "DESCRIPTION": "Reserve your table easily and conveniently online.",
-      "CHECK_IN_LABEL": "Check-In",
-      "CHECK_IN_PLACEHOLDER": "DD.MM.YYYY",
-      "GUESTS_LABEL": "Guests",
-      "FRESH_INGREDIENTS": "Enjoy meals made from fresh and premium ingredients.",
-      "BUTTON": "Reserve Now"
-    },
+    
     "REVIEWS": {
       "SECTION_TITLE": "Customer Reviews",
       "DESCRIPTION": "Hear what our customers have to say about us.",
@@ -155,9 +164,15 @@
           }
       },
       "OPENING_HOURS": {
-          "LABEL": "Opening Hours",
+          "LABEL": "Öffnungszeiten",
           "TIMES": {
-            "EVERYDAY": "10:00 - 22:00"
+            "MONTAG": "10:00 - 20:00",
+            "DIENSTAG": "10:00 - 20:00",
+            "MITTWOCH": "10:00 - 20:00",
+            "DONNERSTAG": "10:00 - 20:00",
+            "FREITAG": "10:00 - 20:00",
+            "SAMSTAG": "10:00 - 14:00",
+            "SONNTAG": "Geschlossen"
           }
       },
       "CONTACT": {
@@ -179,101 +194,7 @@
           "LINK": "https://www.limbermartinez.com/"
       },
       "GET_DIRECTIONS": "Get Directions"
-  },
-  "MENU": {
-    "TITLE": "Our Menu",
-    "DESCRIPTION": "Explore our delicious menu options.",
-    "TABS": {
-      "MENU_OFFERS": "Offers",
-      "TURKISH_SPECIALTIES": "Turkish",
-      "CHICKEN": "Chicken",
-      "BAGUETTES": "Baguettes",
-      "FRIES": "Fries",
-      "PIZZA": "Pizza",
-      "SALADS": "Salads",
-      "EXTRAS_DRINKS": "Extras"
-    },
-    "PRODUCTS": {
-      "MENU_OFFERS": [
-        { "NAME": "Menü 1", "PRICE": "8.90 €", "DESCRIPTION": "Dönertasche + Fries + Drink 0,33l" },
-        { "NAME": "Menü 2", "PRICE": "9.50 €", "DESCRIPTION": "1/2 Chicken + Fries or Rice + Salad + Drink 0,33l" },
-        { "NAME": "Menü 3", "PRICE": "8.50 €", "DESCRIPTION": "1x Hamburger + Fries + Drink 0,33l" },
-        { "NAME": "Menü 4", "PRICE": "10.50 €", "DESCRIPTION": "2x Chickenburger + Fries + Drink 0,33l" },
-        { "NAME": "Montag", "PRICE": "7.00 €", "DESCRIPTION": "1/2 Chicken with Fries or Rice" },
-        { "NAME": "Dienstag", "PRICE": "7.00 €", "DESCRIPTION": "Any large Pizza" },
-        { "NAME": "Mittwoch", "PRICE": "8.00 €", "DESCRIPTION": "Schnitzel with Fries or Rice, Salad and Sauce" },
-        { "NAME": "Donnerstag", "PRICE": "7.00 €", "DESCRIPTION": "Lahmacun with Döner meat, Salad and Sauce" },
-        { "NAME": "Freitag", "PRICE": "11.00 €", "DESCRIPTION": "Döner Plate with Fries or Rice, Salad and Sauce + Drink 0,33l" }
-      ],
-      "TURKISH_SPECIALTIES": [
-        { "NAME": "Dürüm Döner", "PRICE": "7.00 €", "DESCRIPTION": "Döner meat with Salad and Sauce in Wrap" },
-        { "NAME": "Döner Tasche", "PRICE": "6.00 €", "DESCRIPTION": "Döner meat with Salad and Sauce in Bread" },
-        { "NAME": "Kinder Döner Tasche", "PRICE": "4.00 €", "DESCRIPTION": "Döner meat with Salad and Sauce in Bread" },
-        { "NAME": "Turbo Döner Tasche", "PRICE": "7.00 €", "DESCRIPTION": "Döner meat, Garlic sausage with Salad and Sauce in Bread" },
-        { "NAME": "Jumbo Döner Tasche", "PRICE": "8.00 €", "DESCRIPTION": "Döner meat with Salad and Sauce in Bread" },
-        { "NAME": "Pomm Döner", "PRICE": "6.00 €", "DESCRIPTION": "Döner meat, Fries and Sauce in the Box" },
-        { "NAME": "Pomm Döner klein", "PRICE": "4.50 €", "DESCRIPTION": "Döner meat, Fries and Sauce in the Box" },
-        { "NAME": "Salat Tasche", "PRICE": "4.50 €", "DESCRIPTION": "Salad and Sauce in Bread" },
-        { "NAME": "Pommes Tasche", "PRICE": "4.50 €", "DESCRIPTION": "Fries, Salad and Sauce in Bread" },
-        { "NAME": "Sucuk Tasche", "PRICE": "6.00 €", "DESCRIPTION": "Garlic sausage, Salad and Sauce in Bread" }
-      ],
-      "CHICKEN": [
-        { "NAME": "1/2 Hähnchen", "PRICE": "5.50 €", "DESCRIPTION": "" },
-        { "NAME": "Hähnchen", "PRICE": "11.00 €", "DESCRIPTION": "" },
-        { "NAME": "Schnitzel Wiener Art", "PRICE": "8.00 €", "DESCRIPTION": "with Fries and Salad" },
-        { "NAME": "Jägerschnitzel", "PRICE": "9.00 €", "DESCRIPTION": "with Fries and Salad" },
-        { "NAME": "Paprikaschnitzel", "PRICE": "9.00 €", "DESCRIPTION": "with Fries and Salad" },
-        { "NAME": "Hawaii-Schnitzel", "PRICE": "9.50 €", "DESCRIPTION": "with Fries and Salad" },
-        { "NAME": "7 Chicken Nuggets", "PRICE": "6.00 €", "DESCRIPTION": "with Fries" },
-        { "NAME": "11 Chicken Nuggets", "PRICE": "8.00 €", "DESCRIPTION": "with Fries" }
-      ],
-      "BAGUETTES": [
-        { "NAME": "Salami", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" },
-        { "NAME": "Schinken", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" },
-        { "NAME": "Tonno", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" },
-        { "NAME": "Sucuk", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" },
-        { "NAME": "Döner", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" },
-        { "NAME": "Hawaii", "PRICE": "6.00 €", "DESCRIPTION": "All Baguettes topped with Cucumbers, Tomatoes & Lettuce optionally Remoulade" }
-      ],
-      "FRIES": [
-        { "NAME": "Pommes klein", "PRICE": "2.50 €", "DESCRIPTION": "" },
-        { "NAME": "Pommes groß", "PRICE": "3.50 €", "DESCRIPTION": "" },
-        { "NAME": "Pommes Spezial", "PRICE": "6.00 €", "DESCRIPTION": "with Curry sauce and Onions" },
-        { "NAME": "Bratwurst", "PRICE": "3.00 €", "DESCRIPTION": "" },
-        { "NAME": "Currywurst", "PRICE": "3.50 €", "DESCRIPTION": "" },
-        { "NAME": "Currywurst mit Pommes", "PRICE": "6.00 €", "DESCRIPTION": "with Salad Mayonnaise" }
-      ],
-      "PIZZA": [
-        { "NAME": "Margherita", "PRICE": "Sm.: 5.00 € / Lg.: 6.50 €", "DESCRIPTION": "All pizzas with cheese and tomato sauce" },
-        { "NAME": "Spinat", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "All pizzas with cheese and tomato sauce" },
-        { "NAME": "Prosciutto", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With turkey ham" },
-        { "NAME": "Salami", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With beef salami" },
-        { "NAME": "Funghi", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With mushrooms" },
-        { "NAME": "Tonno", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With tuna" },
-        { "NAME": "Hawaii", "PRICE": "Sm.: 6.00 € / Lg.: 8.00 €", "DESCRIPTION": "With pineapple and ham" },
-        { "NAME": "Sucuk", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With garlic sausage" },
-        { "NAME": "Döner", "PRICE": "Sm.: 6.00 € / Lg.: 8.00 €", "DESCRIPTION": "With rotisserie" },
-        { "NAME": "Vegetarisch", "PRICE": "Sm.: 7.50 € / Lg.: 9.50 €", "DESCRIPTION": "" }
-      ],
-      "SALADS": [
-        { "NAME": "Hirten Salat", "PRICE": "Sm.: 5.00 € / Lg.: 7.00 €", "DESCRIPTION": "With iceberg lettuce, tomatoes, cucumbers, cheese & onions" },
-        { "NAME": "Insalata San Antonio", "PRICE": "Sm.: 6.00 € / Lg.: 8.00 €", "DESCRIPTION": "With iceberg lettuce, tuna, tomatoes, cucumbers & onions" },
-        { "NAME": "Bauernsalat", "PRICE": "Sm.: 5.50 € / Lg.: 8.00 €", "DESCRIPTION": "With iceberg lettuce, tomatoes, cucumbers & egg" },
-        { "NAME": "Döner Salat", "PRICE": "Sm.: 6.50 € / Lg.: 9.00 €", "DESCRIPTION": "With iceberg lettuce, cucumbers, tomatoes, onions, corn and rotisserie" },
-        { "NAME": "Express Salat", "PRICE": "Sm.: 6.50 € / Lg.: 9.00 €", "DESCRIPTION": "With iceberg lettuce, cucumbers, tomatoes, tuna, ham rolls, corn & egg" }
-      ],
-      "EXTRAS_DRINKS": [
-        { "NAME": "Hollandaise", "PRICE": "1.00 €", "DESCRIPTION": "" },
-        { "NAME": "Paprikasauce", "PRICE": "1.00 €", "DESCRIPTION": "" },
-        { "NAME": "Jägersauce", "PRICE": "1.00 €", "DESCRIPTION": "" },
-        { "NAME": "Currysauce", "PRICE": "0.50 €", "DESCRIPTION": "" },
-        { "NAME": "Mayonnaise / Ketchup", "PRICE": "0.50 €", "DESCRIPTION": "" },
-        { "NAME": "Cola / Fanta / Sprite / Mezzo Mix", "PRICE": "2.00 €", "DESCRIPTION": "0.33l plus deposit" },
-        { "NAME": "Mineralwasser", "PRICE": "1.50 €", "DESCRIPTION": "0.25l plus deposit" },
-        { "NAME": "Ayran", "PRICE": "1.00 €", "DESCRIPTION": "0.50l plus deposit" }
-      ]
-    },
-    "DOWNLOAD_BUTTON_TEXT": "Download Menu as PDF"
   }
+ 
   
   }
